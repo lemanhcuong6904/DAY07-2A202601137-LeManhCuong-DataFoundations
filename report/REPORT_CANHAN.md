@@ -1,8 +1,8 @@
 # Báo Cáo Cá Nhân — Lab 7: Embedding & Vector Store
 
-**Họ tên:** [Tên sinh viên]
+**Họ tên:** Lê Mạnh Cương
 **Nhóm:** [Tên nhóm]
-**Ngày:** [Ngày nộp]
+**Ngày:** 8/3/2026
 
 > **Nộp 1 bản / sinh viên.** Phần nhóm (lựa chọn tài liệu, thiết kế chiến lược, bộ câu hỏi đánh giá, demo) nộp chung 1 bản trong `REPORT_NHOM.md`. Chi tiết thang điểm: `docs/SCORING.md`.
 
@@ -15,29 +15,31 @@
 ### Độ tương tự Cosine (Cosine Similarity) (Bài tập 1.1)
 
 **Độ tương tự cosine cao (High cosine similarity) nghĩa là gì?**
-> *Viết 1-2 câu:*
+> *Độ tương tự cosine cao nghĩa là hai vector có hướng gần giống nhau, tức là hai nội dung có mức độ tương đồng về ngữ nghĩa cao. Giá trị càng gần 1 thì chúng càng giống nhau.*
 
 **Ví dụ có độ tương tự CAO:**
-- Câu A:
-- Câu B:
-- Tại sao tương đồng:
+- Câu A: Chính sách hoàn tiền của cửa hàng là gì?
+- Câu B: Tôi có thể được hoàn lại tiền khi trả hàng không?
+- Tại sao tương đồng: Cả hai đều hỏi về quy định hoàn tiền và trả hàng.
 
 **Ví dụ có độ tương tự THẤP:**
-- Câu A:
-- Câu B:
-- Tại sao khác:
+- Câu A: Chính sách hoàn tiền của cửa hàng là gì?
+- Câu B: Hôm nay thời tiết có mưa không?
+- Tại sao khác: Hai câu nói về hai chủ đề hoàn toàn khác nhau: hoàn tiền và thời tiết.
 
 **Tại sao độ tương tự cosine (cosine similarity) được ưu tiên hơn khoảng cách Euclid (Euclidean distance) cho text embeddings?**
-> *Viết 1-2 câu:*
+> *Cosine similarity tập trung vào hướng của vector, nên phản ánh tốt mức độ giống nhau về ngữ nghĩa mà ít bị ảnh hưởng bởi độ lớn của vector. Euclidean distance phụ thuộc nhiều vào độ lớn và khoảng cách tuyệt đối giữa các vector.*
 
 ### Bài toán tính toán Chunking (Bài tập 1.2)
 
 **Tài liệu 10,000 ký tự, chunk_size=500, overlap=50. Bao nhiêu chunks?**
 > *Trình bày phép tính:*
-> *Đáp án:*
+> Bước nhảy giữa 2 chunk = 500 - 50 = 450  
+> Số chunk = ceil((10_000 - 500)/450) + 1 = 23
+> *Đáp án: 23
 
 **Nếu độ chồng chéo (overlap) tăng lên 100, số lượng chunk thay đổi thế nào? Tại sao muốn độ chồng chéo nhiều hơn?**
-> *Viết 1-2 câu:*
+> *Nếu overlap tăng thì số lượng chunk tăng lên. Overlap lớn hơn giúp hạn chế mất ngữ cảnh tại ranh giới giữa các chunk, nhưng làm tăng số chunk, dung lượng lưu trữ và chi phí xử lý.*
 
 ---
 

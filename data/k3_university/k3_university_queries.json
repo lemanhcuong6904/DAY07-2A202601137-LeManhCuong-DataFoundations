@@ -1,0 +1,77 @@
+[
+  {
+    "id": "Q1",
+    "query": "Sinh viên phải hoàn thành đăng ký học phần chậm nhất khi nào trước khi bắt đầu mỗi học kỳ?",
+    "metadata_filter": {
+      "audience": "student"
+    },
+    "gold_answer": "Chậm nhất 01 tháng trước khi bắt đầu mỗi học kỳ, sinh viên phải hoàn thành đăng ký các học phần.",
+    "relevant_doc_ids": [
+      "to-chuc-dao-tao-dang-ky-hoc-phan"
+    ],
+    "verification": {
+      "file": "to-chuc-dao-tao-dang-ky-hoc-phan.md",
+      "location": "Điều 21, khoản 3(b)"
+    }
+  },
+  {
+    "id": "Q2",
+    "query": "Sinh viên được rút bớt học phần trong thời hạn nào và có được trả lại học phí không?",
+    "metadata_filter": {
+      "audience": "student"
+    },
+    "gold_answer": "Việc rút bớt học phần chỉ được chấp nhận trong 02 tuần kể từ đầu học kỳ chính hoặc 01 tuần kể từ đầu học kỳ phụ và sinh viên được trả lại học phí. Ngoài thời hạn này, học phần vẫn được giữ và nếu không học thì nhận điểm F, không được hoàn học phí.",
+    "relevant_doc_ids": [
+      "to-chuc-dao-tao-dang-ky-hoc-phan"
+    ],
+    "verification": {
+      "file": "to-chuc-dao-tao-dang-ky-hoc-phan.md",
+      "location": "Điều 23, khoản 2"
+    }
+  },
+  {
+    "id": "Q3",
+    "query": "Sinh viên có điểm D hoặc D+ có được đăng ký học cải thiện không, và điểm cũ được xử lý thế nào?",
+    "metadata_filter": {
+      "audience": "student"
+    },
+    "gold_answer": "Sinh viên đạt điểm D hoặc D+ được đăng ký học lại học phần đó, hoặc đổi sang học phần khác nếu là học phần tự chọn có điều kiện. Khi đăng ký cải thiện được chấp nhận, điểm cũ bị hủy và được thay bằng điểm học phần cải thiện.",
+    "relevant_doc_ids": [
+      "to-chuc-dao-tao-dang-ky-hoc-phan"
+    ],
+    "verification": {
+      "file": "to-chuc-dao-tao-dang-ky-hoc-phan.md",
+      "location": "Điều 21, khoản 5"
+    }
+  },
+  {
+    "id": "Q4",
+    "query": "Các điều kiện chính về tín chỉ, điểm trung bình, ngoại ngữ và học phần điều kiện để sinh viên được xét tốt nghiệp là gì?",
+    "metadata_filter": {
+      "audience": "all"
+    },
+    "gold_answer": "Sinh viên phải tích lũy đủ số tín chỉ của chương trình; có điểm trung bình chung tích lũy từ 2,00 trở lên, hoặc từ 2,50 đối với chương trình tài năng/chất lượng cao; đạt chuẩn ngoại ngữ theo Điều 13; và đạt các học phần giáo dục quốc phòng - an ninh, giáo dục thể chất, kỹ năng bổ trợ, cùng các điều kiện khác của Điều 46.",
+    "relevant_doc_ids": [
+      "tot-nghiep-va-to-chuc-thuc-hien"
+    ],
+    "verification": {
+      "file": "tot-nghiep-va-to-chuc-thuc-hien.md",
+      "location": "Điều 46, khoản 1"
+    }
+  },
+  {
+    "id": "Q5",
+    "query": "Cố vấn học tập có trách nhiệm gì trong việc hỗ trợ sinh viên lập kế hoạch và đăng ký học phần?",
+    "metadata_filter": {
+      "audience": "faculty"
+    },
+    "gold_answer": "Cố vấn học tập/giáo viên chủ nhiệm phải nắm vững chương trình đào tạo; hướng dẫn sinh viên xây dựng kế hoạch học tập và lựa chọn học phần phù hợp; hướng dẫn phương pháp học tập, theo dõi kết quả; hỗ trợ giải quyết khó khăn và phối hợp với các đơn vị liên quan.",
+    "relevant_doc_ids": [
+      "giang-vien-co-van-hoc-tap"
+    ],
+    "verification": {
+      "file": "giang-vien-co-van-hoc-tap.md",
+      "location": "Điều 34, khoản 3"
+    }
+  }
+]
